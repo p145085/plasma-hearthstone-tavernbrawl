@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="completedLog" type="String">
+      <label>Completed Tavern Brawls (JSON list, newest first)</label>
+      <default></default>
+    </entry>
+    <entry name="completedKey" type="String">
+      <label>Legacy single "done" key from 1.0.0, migrated into completedLog</label>
+      <default></default>
+    </entry>
+    <entry name="announcedKey" type="String">
+      <label>Key of the last brawl a "new brawl" notification was sent for</label>
+      <default></default>
+    </entry>
+    <entry name="remindedKey" type="String">
+      <label>Key of the last brawl a closing reminder was sent for</label>
+      <default></default>
+    </entry>
+    <entry name="cachedSchedule" type="String">
+      <label>Recent Tavern Brawl schedule rows (JSON) from the last successful fetch</label>
+      <default></default>
+    </entry>
+    <entry name="notifyNewBrawl" type="Bool">
+      <label>Notify when a new Tavern Brawl opens</label>
+      <default>true</default>
+    </entry>
+    <entry name="reminderHours" type="Int">
+      <label>Remind this many hours before the brawl closes if not done (0 = off)</label>
+      <default>24</default>
+    </entry>
+    <entry name="showCountdownInPanel" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="refreshHours" type="Int">
+      <default>3</default>
+    </entry>
+  </group>
+</kcfg>

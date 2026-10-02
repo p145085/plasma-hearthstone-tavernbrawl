@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Emil Johansson", "Email": "emil.a.johansson@gmail.com" }],
+        "BugReportUrl": "https://github.com/p145085/plasma-hearthstone-tavernbrawl/issues",
+        "Category": "Online Services",
+        "Description": "Have I done this week's Hearthstone Tavern Brawl? Shows the current brawl and whether you bring your own deck, lets you tick it off once you've won the card pack, resets when a new brawl opens, and keeps a log of every brawl you've completed.",
+        "EnabledByDefault": true,
+        "Icon": "games-config-board",
+        "Id": "com.github.p145085.hearthstonetavernbrawl",
+        "License": "GPL-3.0-or-later",
+        "Name": "Hearthstone Tavern Brawl",
+        "Version": "1.0.0",
+        "Website": "https://github.com/p145085/plasma-hearthstone-tavernbrawl"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
