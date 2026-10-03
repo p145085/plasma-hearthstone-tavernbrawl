@@ -10,7 +10,7 @@
         "Id": "com.github.p145085.hearthstonetavernbrawl",
         "License": "GPL-3.0-or-later",
         "Name": "Hearthstone Tavern Brawl",
-        "Version": "1.0.0",
+        "Version": "1.0.1",
         "Website": "https://github.com/p145085/plasma-hearthstone-tavernbrawl"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
